@@ -8,7 +8,9 @@ interface developer<T,Y> {
     };
     smartWatch: T;
 }
-interface backApple{
+
+// for smartwatch
+ interface backApple{
      model: string,
     isApple: boolean;
     isMetalic: boolean;
