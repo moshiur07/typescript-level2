@@ -35,11 +35,16 @@ const student1 = {
   name: 'Jhankar mahabub',
   isPaid: true  
 }
-const student2 = {
+const student2:student = {
   id:156,
   name: 'Mezba',
   isPaid: false  
 }
-const result = addStudent(student2)
+type student ={
+  id:number,
+  name: string,
+  isPaid: boolean  
+}
+const result = addStudent<student>(student2)
 
 console.log(result);

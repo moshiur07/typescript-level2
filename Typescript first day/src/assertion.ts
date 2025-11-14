@@ -1,3 +1,6 @@
+// TODO => implementation of assertion in ts
+
+
 const kgToGramConverter = (kg: number | string | null): number | string | null => {
     if (typeof kg === 'number') {
         return (kg * 0.1);

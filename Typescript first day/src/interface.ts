@@ -1,6 +1,5 @@
 type user = {
     name: string;
-
     id: number
 }
 
@@ -64,6 +63,7 @@ interface IAdd {
     (n1: number, n2: number): number;
 }
 
+const deduction:IAdd = (n1,n2 ) => n1 -n2
 
 const add: AddFunc = (n1, n2) => n1 + n2
 
@@ -74,3 +74,4 @@ const addd = (n1: number, n2: number): number => {
 
 console.log(add(2, 2));
 console.log(addd(2, 2));
+console.log(deduction(6, 2));
