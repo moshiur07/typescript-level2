@@ -24,17 +24,21 @@
 
 class Animal {
 
-    constructor(public name: string, public spices: string, public sound: string, public legs: number) {
-        this.name =name
+    constructor(public name: string,
+        public spices: string,
+        public sound: string,
+        public legs: number) {
+        // this.name =name
     }
     makeSound() {
-        console.log(`${this.name} sounds like ${this.sound}`);
+        console.log(`${this.name} 
+            sounds like ${this.sound}`);
     }
 
 }
 
 
-const dogeshBhai = new Animal('Dogesh mitro', 'dog', 'ghew ghew', 4);
+const dogeshBhai = new Animal('Dogesh mitro',
+    'dog',
+    'ghew ghew', 4);
 console.log(dogeshBhai.name);
-dogeshBhai.makeSound()
-console.log(dogeshBhai.legs);
